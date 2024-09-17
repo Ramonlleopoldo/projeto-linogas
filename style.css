@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+
+}
+span{
+    display: block;
+}
+.bg-azul{
+    background-color: #1E3A5F;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+header nav{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    color: #fff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-name{
+    color: #FF6B35;
+}
+header ol{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+}
+header a{
+    color: #fff;
+    padding: 10px 20px;
+}
+header a:hover{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #1E3A5F;;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 20px 80px;
+}
+main img{
+    max-width: 400px;
+}
+.flex{
+    display: flex;
+}
+.bg-esquerda h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.bg-esquerda span{
+    font-size: 1.125rem;
+    margin-top: 20px;
+}
+.botao{
+    background-color: #FF6B35;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+#produtos{
+    padding: 80px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#produtos h1{
+    font-size: 2.5rem;
+    padding: 0 80px;
+}
+#produtos p{
+    padding: 0 80px;
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+}
+.produtos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+    
+}
+.protuto-item{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 10px;
+    max-width: 500px;
+}
+.produto-descricao{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.produto-nome{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.produto-tamanho{
+    margin-bottom: 15px;
+}
+.produto-informacao{
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+.produto-valor{
+    margin-top: 30px;
+    background-color: #FF6B35;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: auto;
+}
+.span-img{
+    width: 100px;
+}
+#contato{
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+    padding: 20px;
+}
+#contato p{
+    color: #fff;
+}
+#contato h1{
+    font-size: 2.5rem;
+}
+#contato ol{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+ol li{
+    margin-left: 15px;
+}
+#contato li>span>a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+@media(max-width:600px){
+    main{
+        padding: 0 20px;
+    }
+    #produtos h1{
+        padding: 0 20px;
+    }
+    #produtos p{
+        padding: 0 20px;
+    }
+
+}
