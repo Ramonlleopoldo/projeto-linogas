@@ -96,8 +96,14 @@ main img{
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 700;
-    color: #fff;
+    
     cursor: pointer;
+}
+.botao a{
+    color: #fff;
+}
+.botao a:visited{
+    color: #fff;
 }
 #produtos{
     padding: 80px 20px;
