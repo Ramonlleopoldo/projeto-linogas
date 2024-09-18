@@ -69,6 +69,7 @@ header a:hover{
     background-color: #fff;
     color: #1E3A5F;;
 }
+/*Aba principal com informações (sobre)*/
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -108,6 +109,7 @@ main img{
 .botao a:visited{
     color: #fff;
 }
+/*Aba de produtos*/
 #produtos{
     padding: 80px 120px;
     max-width: 1440px;
@@ -154,6 +156,7 @@ main img{
 .span-img{
     width: 100px;
 }
+/*Aba de locais de atendimento e localização*/
 #locais{
     margin: 0 auto;
     max-width: 1440px;
@@ -166,15 +169,30 @@ main img{
     font-size: 1.125rem;
     margin-bottom: 15px;
 }
-#locais ol{
+.container-locais{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container-locais div{
+    flex: 1;
+    min-width: 300px;
+}
+.container-locais span{
+    margin-bottom: 5px;
+}
+.container-locais ol{
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 20px;
+    flex: 1;
 }
-#locais li{
-    text-align: center;
+.container-locais li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#fff;
     padding: 10px;
     border-radius: 10px;
@@ -182,6 +200,8 @@ main img{
     width: 200px;
 
 }
+
+/*Aba de contato (footer)*/
 #contato{
     margin: 0 auto;
     max-width: 1440px;
