@@ -23,7 +23,10 @@ span{
     display: block;
 }
 .bg-azul{
-    background-color: #1E3A5F;
+    background-color: #1A8C50;
+}
+.bg{
+    background-color: #F2F2F2;
 }
 header{
     max-width: 1440px;
@@ -32,6 +35,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 20px;
 
 }
 header nav{
@@ -73,8 +77,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-    margin-top: 20px;
-    padding: 20px 80px;
+    padding: 40px 80px 20px 80px;
 }
 main img{
     max-width: 400px;
@@ -106,16 +109,15 @@ main img{
     color: #fff;
 }
 #produtos{
-    padding: 80px 20px;
+    padding: 80px 120px;
     max-width: 1440px;
     margin: 0 auto;
 }
 #produtos h1{
     font-size: 2.5rem;
-    padding: 0 80px;
+    
 }
 #produtos p{
-    padding: 0 80px;
     margin-bottom: 30px;
     font-size: 1.125rem;
 }
@@ -128,10 +130,9 @@ main img{
     align-self: center;
     
 }
-.protuto-item{
+.produto-item{
     display: flex;
     flex: 1;
-    padding: 20px;
     gap: 10px;
     max-width: 500px;
 }
@@ -149,18 +150,37 @@ main img{
 }
 .produto-informacao{
     max-width: 400px;
-    margin-bottom: 30px;
-}
-.produto-valor{
-    margin-top: 30px;
-    background-color: #FF6B35;
-    width: max-content;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: auto;
 }
 .span-img{
     width: 100px;
+}
+#locais{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 20px 120px;
+}
+#locais h1{
+    font-size: 2.5rem;
+}
+#locais p {
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+}
+#locais ol{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#locais li{
+    text-align: center;
+    background-color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    width: 200px;
+
 }
 #contato{
     margin: 0 auto;
@@ -189,13 +209,13 @@ ol li{
 }
 @media(max-width:600px){
     main{
-        padding: 0 20px;
+        padding:20px;
     }
-    #produtos h1{
-        padding: 0 20px;
+    #produtos{
+        padding: 20px;
     }
-    #produtos p{
-        padding: 0 20px;
+    #locais{
+        padding: 20px;
     }
 
 }
