@@ -86,21 +86,20 @@ main img{
 .flex{
     display: flex;
 }
-.bg-esquerda h1{
+.sobre-info h1{
     font-size: 4rem;
     font-weight: 900;
 }
-.bg-esquerda span{
+.sobre-info span{
     font-size: 1.125rem;
     margin-top: 20px;
 }
-.botao{
+.botao a{
     background-color: #FF6B35;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 700;
-    
     cursor: pointer;
 }
 .botao a{
@@ -137,6 +136,10 @@ main img{
     flex: 1;
     gap: 10px;
     max-width: 500px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    padding: 20px;
+    border-radius: 10px;
 }
 .produto-descricao{
     display: flex;
