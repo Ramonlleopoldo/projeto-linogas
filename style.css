@@ -225,7 +225,7 @@ main img{
 ol li{
     margin-left: 15px;
 }
-#contato li>span>a{
+#contato a{
     display: flex;
     align-items: center;
     color: #fff;
