@@ -14,6 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
     <title>Lino Gás</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16713599174"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16713599174');
+    </script>
 </head>
 
 <body>
@@ -26,7 +35,7 @@
                 <ol>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#contatos">Contato</a></li>
                 </ol>
             </nav>
         </header>
@@ -35,14 +44,34 @@
         <main id="sobre">
             <div class="sobre-info">
                 <h1>LINO GÁS</h1>
-                <span>Foco na Segurança e paixão por Qualidade.</span>
-                <span>Há 20 anos atendendo Joinville com qualidade e agilidade.</span>
-                <span class="botao"><a href="https://wa.me/5547991585526" target="_blank">PEÇA SEU GÁS</a></span>
+                <div>Foco na Segurança e paixão por Qualidade.</div>
+                <div>Há 20 anos atendendo Joinville com qualidade e agilidade.</div>
+
             </div>
             <div>
                 <img src="./assets/img/fogao.jpg" alt="Imagem de fogão a gás com chamas acesa." width="400px" height="225px">
             </div>
         </main>
+        <section id="contatos">
+            <h1>Horário de Atendimento</h1>
+            <ol class="horario">
+                <li>
+                    <img src="./assets/icons/relogio.svg" alt="ícone de relógio" width="20px" height="20px">
+                    <span><strong>Segunda a sábado:</strong> 07:30 às 21:00</span>
+                </li>
+                <li>
+                    <img src="./assets/icons/relogio.svg" alt="ícone de relógio" width="20px" height="20px">
+                    <span><strong>Domingo:</strong> 07:30 às 12:00</span>
+                </li>
+            </ol>
+        </section>
+
+        <ol class="container-contato">
+            <li class="botao btn1"><span><a href="https://wa.me/5547991585526" target="_blank"><img src="./assets/icons/whatsapp.svg" alt="icone de whatsapp" width="40px" height="40px"><span>PEDIR PELO WHATSAPP</span></a></span></li>
+            <li class="botao btn2"><span><a href="tel:4734738238"><img src="./assets/icons/phone.svg" alt="icone de telefone" width="40px" height="40px"><span>PEDIR PELO TELEFONE</span></a></span></li>
+            <li class="botao btn3"><span><a href="https://maps.app.goo.gl/Aca3shDWS7kaNL687" target="_blank"><img src="./assets/icons/local.svg" alt="icone de whatsapp" width="40px" height="40px">RETIRAR NO LOCAL</a></span></li>
+        </ol>
+        </section>
         <section id="produtos">
             <h1> Nossos produtos </h1>
             <p>Trabalhamos com entrega de gás e água mineral, conheça nossos produtos:</p>
@@ -97,7 +126,7 @@
         </section>
     </div>
     <div class="bg-azul">
-        <footer id="contato">
+        <footer id="footer">
             <p>Estamos localizado em Joinvile, entre em contato peça seu gás agora mesmo.</p>
             <ol>
                 <li><span><a href="tel:4734738238"><img src="./assets/icons/phone.svg" alt="icone de telefone" width="40px" height="40px"><span>(47) 34738238</span></a></span></li>
