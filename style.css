@@ -1,1 +1,281 @@
-*{box-sizing:border-box;margin:0;padding:0}li{list-style-type:none}a{text-decoration:none}img{max-width:100%;display:block;border-radius:10px}body{font-family:"Roboto",sans-serif;height:100vh}.bg-escuro{background-color:#1A8C50}.bg{background-color:#F2F2F2}header{max-width:1440px;margin:0 auto;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;padding:20px}header nav{display:flex;padding:20px 40px;justify-content:space-between;color:#fff}.logo{display:flex;justify-content:center;align-items:center;flex-direction:column}.logo-name{color:#FF6B35}header ol{display:flex;gap:10px;align-items:center;justify-content:center;font-size:1.125rem}header a{color:#fff;padding:10px 20px}header a:hover{border-radius:10px;background-color:#fff;color:#1E3A5F}main{max-width:1440px;margin:0 auto;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:40px;padding:40px 80px 20px 80px}main img{max-width:400px}.flex{display:flex}.sobre-info h1{font-size:4rem;font-weight:900}.sobre-info div{font-size:1.125rem;margin-top:20px}#contatos{padding:80px 120px;max-width:1440px;margin:0 auto}#contatos h1{font-size:1.5rem;text-align:center;margin-bottom:10px}.horario{margin-bottom:20px}.horario li{display:flex;gap:5px;justify-content:center;margin-bottom:5px;font-size:1.125rem}.container-contato{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:30px}.botao{padding:10px;width:350px}.botao a{display:inline-block;padding:10px 15px;border-radius:30px;font-weight:700;cursor:pointer;letter-spacing:.1rem;border:solid #fff 2px;font-size:1.125rem;display:flex;justify-content:center;align-items:center}.botao a img{margin-right:10px}.botao a{color:#fff}.botao a:visited{color:#fff}.btn1{background:rgb(78,182,88);background:linear-gradient(90deg,rgba(78,182,88,1) 0%,rgba(23,117,80,1) 100%);border-radius:30px}.btn2{background:rgb(105,183,239);background:linear-gradient(90deg,rgba(105,183,239,1) 0%,rgba(4,115,196,1) 100%);border-radius:30px}.btn3{background:rgb(242,88,37);background:linear-gradient(90deg,rgba(242,88,37,1) 0%,rgba(240,82,94,1) 100%);border-radius:30px}#produtos{padding:80px 120px;max-width:1440px;margin:0 auto}#produtos h1{font-size:2.5rem}#produtos p{margin-bottom:30px;font-size:1.125rem}.produtos-lista{display:flex;flex-wrap:wrap;gap:20px;flex:1;justify-content:center;align-self:center}.produto-item{display:flex;flex:1;gap:10px;max-width:500px;background-color:#fff;box-shadow:5px 5px 15px 0 rgba(44,44,44,.15);padding:20px;border-radius:10px}.produto-descricao{display:flex;flex-direction:column;height:100%}.produto-nome{font-weight:900;margin-bottom:20px}.produto-tamanho{margin-bottom:15px}.produto-informacao{max-width:400px}.span-img{width:100px}#locais{margin:0 auto;max-width:1440px;padding:20px 120px}#locais h1{font-size:2.5rem}#locais p{font-size:1.125rem;margin-bottom:15px}.container-locais{display:flex;flex-wrap:wrap;gap:20px}.container-locais div{flex:1;min-width:300px}.container-locais span{margin-bottom:5px}.container-locais ol{display:flex;gap:15px;flex-wrap:wrap;justify-content:center;padding-bottom:20px;flex:1}.container-locais li{display:flex;justify-content:center;align-items:center;background-color:#fff;padding:10px;border-radius:10px;box-shadow:5px 5px 15px 0 rgba(44,44,44,.15);width:200px}#footer{margin:0 auto;max-width:1440px;padding:20px}#footer p{color:#fff;text-align:center}#footer a{color:#fff}#footer a:visited{color:#fff}.politica-privacidade-texto{padding:20px}@media(max-width:600px){main{padding:20px}#contatos{padding:20px}#produtos{padding:20px}#locais{padding:20px}}
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0
+}
+li {
+    list-style-type:none
+}
+a {
+    text-decoration:none
+}
+img {
+    max-width:100%;
+    display:block;
+    border-radius:10px
+}
+body {
+    font-family:"Roboto",sans-serif;
+    height:100vh
+}
+.bg-escuro {
+    background-color:#1A8C50
+}
+.bg {
+    background-color:#F2F2F2
+}
+header {
+    max-width:1440px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:20px
+}
+
+.logo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column
+}
+.logo img{
+    max-width: 250px;
+}
+.logo-name {
+    color:#FF6B35
+}
+header ol {
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    font-size:1.125rem
+}
+header a {
+    color:#fff;
+    padding:10px 20px
+}
+header a:hover {
+    border-radius:10px;
+    background-color:#fff;
+    color:#1E3A5F
+}
+main {
+    max-width:1440px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:40px;
+    padding:40px 80px 20px 80px
+}
+main img {
+    max-width:400px
+}
+.flex {
+    display:flex
+}
+.sobre-info h1 {
+    font-size:4rem;
+    font-weight:900
+}
+.sobre-info div {
+    font-size:1.125rem;
+    margin-top:20px
+}
+.container-contato{
+    margin-top: 80px;
+}
+#contatos {
+    padding:80px 120px;
+    max-width:1440px;
+    margin:0 auto
+}
+#contatos h1 {
+    font-size:1.5rem;
+    text-align:center;
+    margin-bottom:10px
+}
+.horario {
+    margin-bottom:20px
+}
+.horario li {
+    display:flex;
+    gap:5px;
+    justify-content:center;
+    margin-bottom:5px;
+    font-size:1.125rem
+}
+.container-contato {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:30px
+}
+.botao {
+    padding:10px;
+    width:350px
+}
+.botao a {
+    display:inline-block;
+    padding:10px 15px;
+    border-radius:30px;
+    font-weight:700;
+    cursor:pointer;
+    letter-spacing:.1rem;
+    border:solid #fff 2px;
+    font-size:1.125rem;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.botao a img {
+    margin-right:10px
+}
+.botao a {
+    color:#fff
+}
+.botao a:visited {
+    color:#fff
+}
+.btn1 {
+    background:rgb(78,182,88);
+    background:linear-gradient(90deg,rgba(78,182,88,1) 0%,rgba(23,117,80,1) 100%);
+    border-radius:30px
+}
+.btn2 {
+    background:rgb(105,183,239);
+    background:linear-gradient(90deg,rgba(105,183,239,1) 0%,rgba(4,115,196,1) 100%);
+    border-radius:30px
+}
+.btn3 {
+    background:rgb(242,88,37);
+    background:linear-gradient(90deg,rgba(242,88,37,1) 0%,rgba(240,82,94,1) 100%);
+    border-radius:30px
+}
+#produtos {
+    padding:80px 120px;
+    max-width:1440px;
+    margin:0 auto
+}
+#produtos h1 {
+    font-size:2.5rem
+}
+#produtos p {
+    margin-bottom:30px;
+    font-size:1.125rem
+}
+.produtos-lista {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    flex:1;
+    justify-content:center;
+    align-self:center
+}
+.produto-item {
+    display:flex;
+    flex:1;
+    gap:10px;
+    max-width:500px;
+    background-color:#fff;
+    box-shadow:5px 5px 15px 0 rgba(44,44,44,.15);
+    padding:20px;
+    border-radius:10px
+}
+.produto-descricao {
+    display:flex;
+    flex-direction:column;
+    height:100%
+}
+.produto-nome {
+    font-weight:900;
+    margin-bottom:20px
+}
+.produto-tamanho {
+    margin-bottom:15px
+}
+.produto-informacao {
+    max-width:400px
+}
+.span-img {
+    width:100px
+}
+#locais {
+    margin:0 auto;
+    max-width:1440px;
+    padding:20px 120px
+}
+#locais h1 {
+    font-size:2.5rem
+}
+#locais p {
+    font-size:1.125rem;
+    margin-bottom:15px
+}
+.container-locais {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px
+}
+.container-locais div {
+    flex:1;
+    min-width:300px
+}
+.container-locais span {
+    margin-bottom:5px
+}
+.container-locais ol {
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-bottom:20px;
+    flex:1
+}
+.container-locais li {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#fff;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:5px 5px 15px 0 rgba(44,44,44,.15);
+    width:200px
+}
+#footer {
+    margin:0 auto;
+    max-width:1440px;
+    padding:20px
+}
+#footer p {
+    color:#fff;
+    text-align:center
+}
+#footer a {
+    color:#fff
+}
+#footer a:visited {
+    color:#fff
+}
+.politica-privacidade-texto {
+    padding:20px
+}
+@media(max-width:600px) {
+    main {
+        padding:20px
+    }
+    #contatos {
+        padding:20px
+    }
+    #produtos {
+        padding:20px
+    }
+    #locais {
+        padding:20px
+    }
+}
